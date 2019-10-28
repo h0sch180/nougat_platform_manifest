@@ -5,7 +5,7 @@ ViperOs Extended 3.1.3 REBORN
 
 ViperOS Extended manifest with all latest / updated repos by LineageOS source
 
-*added APP-Drawer the Pixel Launcher from Lineage
+added APP-Drawer the Pixel Launcher from Lineage
 
 Initializing Repository
 -----------------------
