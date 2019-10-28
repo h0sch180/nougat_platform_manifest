@@ -11,7 +11,7 @@ Initializing Repository
 
 Initiate core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/h0sch180/nougat_platform_manifest -b nougat
+    $ repo init -u https://github.com/h0sch180/nougat_platform_manifest -b nougat-viperos
 
 Sync the repository:
 
