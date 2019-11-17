@@ -24,10 +24,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r36" />
 
-  <default revision="cm-14.1"
+  <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="16" />
 
   <!-- AOSP And LineageOS Projects -->
 
