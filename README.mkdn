@@ -24,7 +24,7 @@ Building
 --------
 
 You can build for specific devices like this:
-    cd n_asb/viperosextended/
+    cd n_asb/viperosextended
     bash apply-patches.sh
     . build/envsetup.sh
     lunch viper_MAX-userdebug
