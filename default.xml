@@ -14,8 +14,9 @@
            revision="nougat" />
 
   <remote name="n_asb"
-           fetch="https://github.com/h0sch180/" />
-
+           fetch="https://github.com/h0sch180/"
+           revision="master" />
+  
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
