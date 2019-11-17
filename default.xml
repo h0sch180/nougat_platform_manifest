@@ -9,9 +9,12 @@
            fetch="https://github.com/Viper-Project/"
            revision="nougat" />
 
-   <remote name="extended"
+  <remote name="extended"
            fetch="https://github.com/ViperOS-Extended/"
            revision="nougat" />
+
+  <remote name="n_asb"
+           fetch="https://github.com/h0sch180/"
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -372,6 +375,7 @@
   <project path="hardware/ti/omap4xxx" name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4,pdk" />
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
+  <project path="n_asb" name="n_asb" groups="pdk" remote="n_asb" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
