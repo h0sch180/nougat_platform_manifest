@@ -15,7 +15,7 @@
 
   <remote name="n_asb"
            fetch="https://github.com/h0sch180"
-           revision="nougat-crdroid" />
+           revision="master" />
 
   <remote  name="crdroid"
            fetch=".."
