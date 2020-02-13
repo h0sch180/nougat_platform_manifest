@@ -5,7 +5,7 @@ CrDroid manifest with all latest / updated repos by LineageOS source
 
 ##### Step 1: Initializing the CrDroid repo and downloading the manifest
 
-      $  repo init -u https://github.com/seluce/nougat_platform_manifest.git -b nougat-crdroid
+      $  repo init -u https://github.com/h0sch180/nougat_platform_manifest.git -b nougat-crdroid
 
 ##### Step 2: Syncing the source
 
