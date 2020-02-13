@@ -15,7 +15,7 @@
 		   
   <remote name="n_asb"
            fetch="https://github.com/h0sch180"
-           revision="nougat-rr" />
+           revision="master" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
