@@ -1,35 +1,16 @@
-ViperOs Extended 3.1.3 REBORN
-=============================
+CrDroid 3.8.9 REBORN
+===========
+CrDroid manifest with all latest / updated repos by LineageOS source
+------------------
 
-![ViperOS](http://i.imgur.com/bwSVDSV.png)
+##### Step 1: Initializing the CrDroid repo and downloading the manifest
 
-ViperOS Extended manifest with all latest / updated repos by LineageOS source
+      $  repo init -u https://github.com/seluce/nougat_platform_manifest.git -b nougat-crdroid
 
-added APP-Drawer the Pixel Launcher from Lineage
-added n_asb
+##### Step 2: Syncing the source
 
-Initializing Repository
------------------------
+      $  repo sync -f --force-sync --no-clone-bundle
+	  
+##### Step 3: Apply n_asb script by seluce
 
-Initiate core trees without any device/kernel/vendor:
-
-    $ repo init -u https://github.com/h0sch180/nougat_platform_manifest.git -b nougat-viperos
-
-Sync the repository:
-
-    $ repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
-
-***
-
-Building
---------
-
-You can build for specific devices like this:
-
-    cd n_asb/viperosextended
-    bash apply-patches.sh
-    . build/envsetup.sh
-    lunch viper_MAX-userdebug
-    mka poison
-
-Remember to `make clobber && make clean` every now and then!
+	  $  cd n_asb && bash apply-patches.sh
