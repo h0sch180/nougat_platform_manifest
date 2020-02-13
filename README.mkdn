@@ -19,7 +19,5 @@ You can build for specific devices like this:
     cd n_asb/resurrectionremix
     bash apply-patches.sh
     . build/envsetup.sh
-    lunch viper_MAX-userdebug
-    mka poison
+    brunch MAX
 
-Remember to `make clobber && make clean` every now and then!
