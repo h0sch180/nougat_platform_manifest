@@ -11,6 +11,15 @@ RR manifest with all latest / updated repos by LineageOS source
 
       $  repo sync -f --force-sync --no-clone-bundle
 	  
-##### Step 3: Apply n_asb script by seluce
+Building
+--------
 
-	  $  cd n_asb && bash apply-patches.sh
+You can build for specific devices like this:
+
+    cd n_asb/resurrectionremix
+    bash apply-patches.sh
+    . build/envsetup.sh
+    lunch viper_MAX-userdebug
+    mka poison
+
+Remember to `make clobber && make clean` every now and then!
