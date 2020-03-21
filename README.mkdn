@@ -9,7 +9,7 @@ CrDroid manifest with all latest / updated repos by LineageOS source
 
 ##### Step 2: Syncing the source
 
-      $  repo sync -f --force-sync --no-clone-bundle
+      $  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 	  
 Building
 --------
